@@ -9,5 +9,5 @@ RUN \
     useradd -m -s /bin/bash bob && \
     mkdir /home/bob/src
 
-USER bob
+#USER bob
 WORKDIR /home/bob/src
